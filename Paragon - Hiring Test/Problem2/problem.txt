@@ -1,0 +1,20 @@
+Deskripsi
+Suatu bilangan bulat positif disebut "agak prima" apabila bilangan tersebut hanya habis dibagi oleh 1, bilangan itu sendiri, dan sebanyak-banyaknya dua bilangan bulat positif lainnya. Anda diberikan sebuah bilangan, tentukan apakah bilangan tersebut bilangan agak prima atau bukan.
+
+Format Masukan
+Baris pertama (masukan pertama) berisi sebuah bilangan bulat N
+
+Format Keluaran
+Untuk bilangan N, cetak sebuah baris berisi YA apabila bilangan tersebut agak prima, atau BUKAN jika bukan.
+
+Contoh Masukan : Keluaran
+1 : YA  --> masukan bilangan 1, keluaran "YA"
+17 : YA  --> masukan bilangan 17, keluaran "YA"
+51 : YA  --> masukan bilangan 51, keluaran "YA"
+52 : BUKAN  --> masukan bilangan 52, keluaran "BUKAN"
+
+Penjelasan
+Faktor-faktor dari 51 adalah 1, 3, 17, dan 51, sedangkan faktor dari 52 adalah 1, 2, 4, 13, 26, 52. Oleh karena itu, 51 "agak prima" sedangkan 52 tidak "agak prima". Sesuai definisi di atas, bilangan prima secara langsung adalah bilangan "agak prima" juga.
+
+Batasan
+1 ≤ N ≤ 1.000.000

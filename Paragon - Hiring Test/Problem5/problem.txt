@@ -1,0 +1,24 @@
+Pak Ragon memiliki sebuah string , dari string yang dimiliki, Pak Ragon ingin mengetahui apakah string tersebut Parentheses Siku atau bukan. Parentheses Siku jika dia parentheses dan terdiri dari karakter '[' and ']'. Berikut adalah contoh membedakan Parentheses Siku atau bukan.
+
+"[]"              =>  benar
+"][[]]["          =>  salah
+"["               =>  salah
+"[[[]][[[]]][[]]]"  =>  benar
+"(()())"          =>  salah
+
+Bantulah Pak Ragon untuk menentukan string yang dia miliki Parentheses Siku atau bukan dengan membuat sebuah fungsi yang akan mengembalikan benar jika string tersebut Parentheses Siku dan salah jika fungsi tersebut bukan Parentheses Siku.
+
+Contoh masukan
+[[]]
+
+Contoh keluaran
+benar
+
+Contoh masukan
+][]]
+
+Contoh keluaran
+salah
+
+Batasan
+1 <= panjang string <= 10000

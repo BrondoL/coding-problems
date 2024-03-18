@@ -1,0 +1,35 @@
+Deskripsi
+Anda diberikan sebuah challange untuk melakukan rotasi matrik. Anda diberikan sebuah matriks berukuran N × M. Cetak kembali matriks tersebut setelah diputar 90 derajat searah jarum jam.
+
+Format Masukan
+Baris pertama (masukan pertama) berisi bilangan bulat N, Baris kedua (masukan kedua) berisini bilangan M. Baris ketiga (masukan ketiga) berisi matriks berukukan N dan M dalam representasi array 2 Dimensi
+
+Format Keluaran
+Sebuah array 2 dimensi yang merepresentasikan matriks berukuran M × N  yang sudah diputar 90 derajat searah jarum jam.
+
+Contoh Masukan
+4
+3
+[[1,2,3],[4,5,6],[7,8,9],[0,1,2]]
+
+--- arti dari masukan diatas adalah
+baris pertama bilangan N = 4
+baris kedua bilangan M = 3
+baris ketiga berupa array 2D of integer yang merepresentasikan matriks berikut:
+1 2 3
+4 5 6
+7 8 9
+0 1 2
+Contoh Keluaran
+[[0,7,4,1],[1,8,5,2],[2,9,6,3]]
+
+--- arti dari array 2D of integer diatas adalah representasikan matriks berikut:
+
+0 7 4 1
+1 8 5 2
+2 9 6 3
+Batasan
+1 ≤ N, M ≤ 100
+1 ≤ (setiap elemen matriks) ≤ 100
+Petunjuk :
+buatlah function sendiri untuk merotasi matrik, sebaiknya hindari penggunaan STL atau function built in dari bahasa pemrograman yang anda gunakan.

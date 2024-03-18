@@ -1,0 +1,20 @@
+Deskripsi
+Pawang Kucing sedang bermain tebak-tebakan tinggi badan dengan seekor kucingnya. Ia memiliki N ekor kucing dan mengetahui dengan pasti tinggi dari kucing-kucingnya, namun ia tidak yakin kucing mana memiliki tinggi berapa.
+
+kucing tersebut hanya akan mengatakan pada sang Pawang Kucing "Aku adalah kucing terpendek ke-P. Berapa tinggi badanku?". Bantulah Pawang Kucing menebak tinggi badan kucing tersebut!
+
+Format Masukan
+Baris pertama (masukan pertama) berisi bilangan bulat N dan baris kedua (masukan kedua) berisi bilangan bulat K. Baris ketiga (masukan ketiga) berisi array 1 dimensi bilangan bulat yang menyatakan tinggi dari semua kucing-kucing Pawang Kucing.
+
+Format Keluaran
+Sebuah baris berisi tinggi dari kucing tersebut (terpendek ke P).
+
+Contoh Masukan
+5
+2
+[5, 4, 3, 2, 1]
+Contoh Keluaran
+2
+Batasan
+1 ≤ K ≤ N ≤ 1.000
+1 ≤ (setiap tinggi kucing) ≤ 100.000
